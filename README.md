@@ -9,6 +9,8 @@ Swift conveniences for working with locales (particularly localized strings) in 
 
 ## Requirements
 
+Swift 4.2
+
 ## Installation
 
 WolfLocale is available through [CocoaPods](https://cocoapods.org). To install
