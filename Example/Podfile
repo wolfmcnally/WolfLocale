@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+pod 'ExtensibleEnumeratedName', :path => '../../ExtensibleEnumeratedName'
+pod 'WolfLog', :path => '../../WolfLog'
+pod 'WolfStrings', :path => '../../WolfStrings'
+pod 'WolfNumerics', :path => '../../WolfNumerics'
+
+target 'WolfLocale_Example' do
+  pod 'WolfLocale', :path => '../'
+
+  target 'WolfLocale_Tests' do
+    inherit! :search_paths
+  end
+end

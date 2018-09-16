@@ -1,0 +1,6 @@
+framework module WolfLocale {
+  umbrella header "WolfLocale-umbrella.h"
+
+  export *
+  module * { export * }
+}
