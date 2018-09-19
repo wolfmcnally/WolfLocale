@@ -1,11 +1,7 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfLocale'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'Swift conveniences for working with locales (particularly localized strings) in iOS and macOS.'
-
-    # s.description      = <<-DESC
-    # TODO: Add long description of the pod here.
-    # DESC
 
     s.homepage         = 'https://github.com/wolfmcnally/WolfLocale'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
