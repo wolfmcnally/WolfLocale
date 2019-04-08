@@ -23,9 +23,8 @@
 //  SOFTWARE.
 
 import Foundation
-import ExtensibleEnumeratedName
+import WolfCore
 import WolfLog
-import WolfStrings
 
 extension LogGroup {
     public static let localization = LogGroup("localization")

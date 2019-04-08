@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfLocale'
-    s.version          = '2.0.0'
+    s.version          = '2.0.1'
     s.summary          = 'Swift conveniences for working with locales (particularly localized strings) in iOS and macOS.'
 
     s.homepage         = 'https://github.com/wolfmcnally/WolfLocale'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Wolf McNally' => 'wolf@wolfmcnally.com' }
     s.source           = { :git => 'https://github.com/wolfmcnally/WolfLocale.git', :tag => s.version.to_s }
 
-    s.source_files = 'WolfLocale/Classes/**/*'
+    s.source_files = 'Sources/WolfLocale/**/*'
 
     s.swift_version = '5.0'
 
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 
     s.module_name = 'WolfLocale'
 
-    s.dependency 'ExtensibleEnumeratedName'
+    s.dependency 'WolfCore'
     s.dependency 'WolfLog'
-    s.dependency 'WolfStrings'
 end
