@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfLocale'
-    s.version          = '2.0.1'
+    s.version          = '2.0.2'
     s.summary          = 'Swift conveniences for working with locales (particularly localized strings) in iOS and macOS.'
 
     s.homepage         = 'https://github.com/wolfmcnally/WolfLocale'
